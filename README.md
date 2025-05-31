@@ -30,7 +30,7 @@ It’s perfect for beginners or anyone looking to build a quick and simple perso
 
 ## 🌐 Live Demo
 You can view the live version of this portfolio here:  
-👉 [https://tanishkamanwal.github.io/myportfolio/](https://github.com/TanishkaManwal/myportfolio)
+👉 [https://tanishkamanwal.github.io/myportfolio/](https://tanishkamanwal.github.io/myportfolio/)
 
 
 ## 🛠️ Technologies Used
