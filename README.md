@@ -28,10 +28,10 @@ It’s perfect for beginners or anyone looking to build a quick and simple perso
 3. Customize the content in `index.html` and styles in `style.css`.  
 4. Optionally, deploy using GitHub Pages or any static site host.
 
-## 🖼️ Preview
+## 🌐 Live Demo
+You can view the live version of this portfolio here:  
+👉 [https://tanishkamanwal.github.io/myportfolio/](https://github.com/TanishkaManwal/myportfolio)
 
-![Portfolio Screenshot](images/screenshot.png)  
-*(Replace with your own preview image)*
 
 ## 🛠️ Technologies Used
 
