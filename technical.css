@@ -1,0 +1,58 @@
+body{
+    background-color: peachpuff;
+}
+H1{
+    color: maroon;
+    text-align: center;
+}
+.skill-card {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff8f0;
+    border-radius: 12px;
+    padding: 15px 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .skill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: maroon;
+  }
+  
+  .skill-level {
+    background-color: #ffd4d4;
+    color: maroon;
+    font-size: 0.85rem;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  
+  .skill-bar {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    height: 14px;
+    overflow: hidden;
+  }
+  
+  .skill-progress {
+    height: 100%;
+    background: linear-gradient(to right, maroon, #b22222);
+    border-radius: 10px;
+    transition: width 0.8s ease;
+  }
+  
+
+  

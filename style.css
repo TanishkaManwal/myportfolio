@@ -1,0 +1,173 @@
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+body {
+    background-color: #fdf1e1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.nav-sections {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 40px;
+  }
+  
+  .nav-sections a {
+    text-align: center;
+    text-decoration: none;
+    color: maroon;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff3e0;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-sections a:hover {
+    transform: scale(1.05);
+    background-color: #ffe0b2;
+  }
+  
+  .nav-sections img {
+    width: 100px;
+    height: 100px;
+  }
+  .nav-sections h3{
+    color:maroon
+  }
+/* Header box styles */
+.box {
+    width: 100%;
+    padding: 30px 0;
+    background: linear-gradient(to right, maroon, #8b0000);
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.box a {
+    display: inline-block;
+    margin: 10px;
+    color: #ffcccb; /* Light color for contrast */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.box a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Main heading */
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+}
+
+/* Subheading */
+h2 {
+    color: #4a4a4a;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Certification section */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+ul li {
+    background-color: #fff3e0;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 6px solid maroon;
+    border-radius: 5px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #ffe0b2;
+    transform: translateX(5px);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+
+
+.container {
+    display: flex;
+    gap: 40px; /* Adjust spacing between sections */
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Makes it responsive */
+  }
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+  .section-grid section {
+    background-color: papayawhip;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  section {
+    flex: 1; /* Makes both sections take equal width */
+    min-width: 300px; /* Ensures proper wrapping on smaller screens */
+  }
+  .moreme a {
+    color: white !important; /* Ensures the link text color is white */
+    text-decoration: none;   /* Removes the default underline from links */
+}
+
+.moreme a:hover {
+    color: #f0f0f0;  /* Optional: lighter color when hovering */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a0000;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 40px;
+  }
+h3{
+    color:#f0f0f0
+}
+footer p {
+    margin: 5px 0;  /* This reduces the vertical space between lines */
+    color: #f0f0f0;
+  }
+footer a{
+    color:white
+}
+
